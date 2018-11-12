@@ -1,0 +1,25 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "ARG Docs"
+theme = "hugo-theme-learn"
+relativeURLs = true
+uglyurls = true
+	
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> ARG Website"
+identifier = "arg"
+url = "http://automationresourcesgroup.com"
+weight = 10
+
+[params]
+ # Change default color scheme with a variant one. Can be "red", "blue", "green".
+ themeVariant = "mine"
